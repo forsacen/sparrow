@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "install": "^0.13.0",
+    "koa": "^2.13.1",
+    "koa-compress": "^5.1.1",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-static-cache": "^5.1.4",
+    "koa-virtual-host": "^0.2.0",
+    "lz4js": "^0.2.0",
+    "mongodb": "^3.6.6",
+    "npm": "^10.8.0"
+  }
+}

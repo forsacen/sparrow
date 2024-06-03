@@ -1,0 +1,1 @@
+(function(){"use strict";const t=e=>{const s=/((?!([^<]+)?>)([\w]+)(?!([^{]+)?})([\w]+))/g;return e.replace(s,"<w>$1</w>")};self.addEventListener("message",e=>{const s=t(e.data);self.postMessage(s)})})();

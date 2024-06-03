@@ -2,7 +2,7 @@ middleware={}
 module.exports = middleware
 
 
-middleware.checkPlaform=(req, res,next)=>{
+/*middleware.checkPlaform=(req, res,next)=>{
     let deviceAgent = req.headers["user-agent"].toLowerCase();
     if(deviceAgent.match(/(iphone|ipod|ipad|android)/)){
         req.platform = 'wap' //mobile
@@ -10,4 +10,4 @@ middleware.checkPlaform=(req, res,next)=>{
         req.platform = 'pc' //pc
     }
     next()
-}
+}*/
